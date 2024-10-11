@@ -1,0 +1,23 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive or environment-specific files
+config.ini
+credentials.json
+
+# Ignore scrap files
+.states.py
+.chat_bot_avatar.jpeg
+.bruno_README.md
+.env
