@@ -1,4 +1,17 @@
+"""
+# PDF and DOCX Text Parser
 # pdf_parser.py
+
+This module provides functions to extract text from PDF and DOCX files and split the text into manageable chunks.
+
+## Functions:
+* get_pdf_text(pdf_doc): Extracts text from PDF files
+* get_text_from_docx(docx_file): Extracts text from DOCX files
+* get_text_from_files(pdf_docs): Main function to process multiple files of different types
+* get_text_chunks(raw_text): Splits text into overlapping chunks for better processing
+
+"""
+
 from PyPDF2 import PdfReader
 from docx import Document
 from langchain.text_splitter import CharacterTextSplitter
